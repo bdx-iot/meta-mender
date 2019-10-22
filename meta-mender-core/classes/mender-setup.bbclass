@@ -265,6 +265,9 @@ python() {
 
         # Enable dynamic resizing of the data filesystem through systemd's growfs
         'mender-growfs-data',
+
+        # Use Mender together with U-Boot & stm32mp1.
+        'mender-uboot-stm32mp1',
     }
 
     mfe = d.getVar('MENDER_FEATURES_ENABLE')
